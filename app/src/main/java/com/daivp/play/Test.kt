@@ -48,16 +48,11 @@ object Tests {
 
     fun test3() {
         GlobalScope.launch {
-            println("test3 start")
-            repeat(4) {
-                launch { work(it) }
-            }
-            println("test3 end")
-            val add3 = 3
+            val add3 = 5
         }
     }
 
     fun test4(){
-        val add = 3
+        val add = 5
     }
 }
