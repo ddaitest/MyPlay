@@ -55,4 +55,8 @@ object Tests {
             println("test3 end")
         }
     }
+
+    fun testb(){
+        val bbb = 1
+    }
 }
