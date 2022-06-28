@@ -53,10 +53,11 @@ object Tests {
                 launch { work(it) }
             }
             println("test3 end")
+            val add3 = 3
         }
     }
 
     fun test4(){
-        val add = 1
+        val add = 3
     }
 }
